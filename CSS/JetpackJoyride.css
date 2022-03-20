@@ -1,0 +1,275 @@
+body{
+	background-color:black;
+	overflow: hidden;
+}
+.font{
+	font-family:'Lilita One', cursive;
+	color: #FFFFFF;
+}
+.size4{
+	font-size: 4vw;
+}
+.size3{
+	font-size: 3vw;
+}
+.shadow4{
+	text-shadow: 4px 4px 0 black, 4px -4px 0 black, -4px 4px 0 black, -4px -4px 0 black, 4px 0px 0 black, 0px 4px 0 black, -4px 0px 0 black, 0px -4px 0 black;
+}
+.textDecorationNone{
+	text-decoration: none;
+}
+.inline{
+	display: inline;
+}
+.alignCenter{
+	text-align: center;
+}
+.cursorPointer{
+	cursor: pointer;
+}
+.margin0{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#monete, #metri{
+	text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+	font-size:1.4vw;
+}
+.marginRight{
+	margin-right: 3%;
+}
+.exit{
+	margin-top:60px;
+}
+.exit:hover{
+	cursor:pointer;
+	color:#2FAAE8;
+}
+#playgroundWrapper{
+	margin-top:1%;
+	text-align:center;
+	width:100%;
+}
+#playground{
+	background-image:url('../Images/SfondoTitolo.png');
+	background-repeat:repeat;
+	background-size:100vw;
+	margin:0px auto;
+	height:50vw;
+}
+
+/*** Per far muovere lo sfondo ***/
+@keyframes slide{
+    from{ 
+    	background-position: 0 0; 
+    }
+    to{ 
+    	background-position: -5000px 0; 
+    }
+}
+/*********************************/
+
+/* CSS Volume */
+#Volume{
+	width:7%;
+	position:relative;
+	left:92%;
+	top:1%;
+}
+#Volume:hover{
+	cursor:pointer;
+}
+#VolumePaginaPersonale{
+	width:4%;
+	position:relative;
+	left:62%;
+	top:1%;
+}
+#VolumePaginaPersonale:hover{
+	cursor:pointer;
+}
+#Musica{
+	width:5vw;
+}
+/*************/
+
+/* CSS Inizia Gioco */
+#immagineCopertina{
+	width: 50%;
+	height: auto;
+}
+#Clicca{
+	font-size:4vw;
+}
+#Clicca:hover{
+	cursor:pointer;
+	font-size:3.5vw;
+}
+/*******************/
+
+/* CSS Esplosione */
+#Esplosione{
+	margin-top:-10%;
+}
+#Exp{
+	width:95vw;
+	height:60vw;
+}
+/*****************/
+
+/* CSS Giocatore e fiamma */
+#boxGiocatore{
+	width:8%;
+	height:12%;
+	position:relative;
+	top:90%;
+	left:5%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#giocatore{
+	width:90%;
+}
+#fiamma{
+	width:25%;
+	height:55%;
+	position:relative;
+	opacity:0;
+}
+#gadget{
+	position:relative;
+	width:70%;
+}
+/***************/
+
+/* CSS degli elettrodi */
+#elettrodi{
+	width:6%;
+	height:25%;
+	position:relative;
+	top:50%;
+	left:93%;
+}
+#elettrodo{
+	width:100%;
+}
+/***************/
+
+/* CSS dei razzi */
+#razzi{
+	width:10%;
+	height:10%;
+	position:relative;
+}
+#razzo{
+	width:100%;
+}
+/***************/
+
+/* CSS delle monete */
+.monete{
+	float:left;
+	position:relative;
+	opacity:0;
+}
+.moneta{
+	width:3vw;
+	height:3vw;
+}
+/********************/
+
+/* CSS dei risultati */
+#risultato{
+	width:25%;
+	position:relative;
+	left:35%;
+}
+/***************/
+
+/* CSS dei titoli e dei bottoni */
+label{
+	font-size:2vw;
+}
+input[type=text],input[type=password], select {
+  	width: 30%;
+  	padding: 1% 2%;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	font-size:1.5vw;
+}
+
+input[type=submit] {
+  	width: 30%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 1.5% 2%;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+#registrati{
+	width: 30%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 1.5% 2%;
+  	margin: 25px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+#registrati:hover{
+	background-color: #45a049;
+}
+/**************/
+
+/* CSS Pagina Personale */
+#immagineMoneta{
+	margin-left:10%;
+	width:3%;
+}
+
+/* CSS Shop */
+.immagineShop{
+	width:9%;
+	opacity:0.5;
+}
+.immagineShop:hover{
+	width:9%;
+	cursor:pointer;
+	opacity:1;
+}
+#diversa{
+	width:9.4%
+}
+#buttonConfirm{
+	text-align: center;
+	width: 26%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 1.5% 2%;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+#buttonConfirm:hover{
+	background-color: #45a049;
+}
+/************/
+
+/* CSS istruzioni */
+.paragrafo{
+	text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+	font-size:2.2vw;
+}
+/******************/
